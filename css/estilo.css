@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    background: url('https://s2.best-wallpaper.net/wallpaper/2880x1800/1801/Big-wave-sea-sun_2880x1800.jpg') no-repeat;
+    height: 50vh;
+    font-family: arial;
+}
+.text-esquerda {
+    position: absolute;
+    bottom: -125px;
+    margin: 5px;
+}
+
+.cabecalho {
+    font-size: 1.8rem;
+}
+.cabecalho ul {
+    height: 50px;
+    background-color: #333;
+    opacity: 0.6;
+    padding: 15px;
+    border-radius: 50px;
+
+
+}
+
+.cabecalho a {
+    display: inline;
+    text-decoration: nome;
+    color: white;
+    font-weight: 700;
+}
+
+.menu {
+    float: right;
+    width: auto;
+}
+.menu li {
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    margin-right: 13px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: -8px;
+    border-radius: 25px;
+    transition: 0.7s all;
+}
+
+.menu li:hover {
+    transition: 0.7s all;
+    background-color: white;
+    color: black;
+}
+
+.cabecalho li {
+    list-style: none;
+    list-style-type: none;
+    padding: 4px;
+    display: inline-block;
+}
+
+.contato {
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 3px black;
+    /* border: 2px solid black; */
+    margin: 20px;
+    position: absolute;
+    width: 350px;
+    top: 155px;
+    right: 100px;
+    text-align: center;
+    font-size: 1.9rem;
+    background: #00000091;
+}
+
+.contato label, .cotato textarea {
+    display: block;
+    width: 100%;
+}
+
+
+.contato input, .contato textarea {
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    outline: none;
+    width: 75%;
+}
+
+.contato textarea {
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    outline: none;
+}
+
+
+.enviar {
+    width: 40%;
+    margin-top: 10px;
+}
+
+.main {
+    font-size: 3rem;
+    color: black;
+    width: 60%;
+    display: ;
+
+}
+
+/* .contato input[type=submit]{
+    background-color: orangered;
+} */
