@@ -1,0 +1,8 @@
+## configuração do servidor ##
+
+rewriteEngine on
+RewriteCont %{REQUEST_FILENAME} !-d
+RewriteCont %{REQUEST_FILENAME}\.html -f 
+RewriteRule ^(.*)$  $1.html
+
+## FINAL DA CONFIGURAÇÃO ##
